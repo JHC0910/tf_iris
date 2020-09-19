@@ -11,7 +11,19 @@ Multilayer perceptron
   * 200 neurons
   * 200 neurons
 * Output layer with 3 output dimension (3 answers)
-  
+~~~js
+model.add(tf.keras.layers.Dense(input_dim = 4, units = 100, activation=tf.nn.relu))
+model.add(tf.keras.layers.Dropout(0.2))
+model.add(tf.keras.layers.Dense(units = 200, activation=tf.nn.relu))
+model.add(tf.keras.layers.Dropout(0.2))
+model.add(tf.keras.layers.Dense(units = 200, activation=tf.nn.relu))
+model.add(tf.keras.layers.Dropout(0.2))
+model.add(tf.keras.layers.Dense(units = 3, activation=tf.nn.softmax))
+~~~
+
+ 
+ 
+ 
 ## 準確率
 * Train accuracy 97.5%
 * Test accuracy 96.7%
