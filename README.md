@@ -1,1 +1,3 @@
-# tf_iris
+# Iris Classifier by TensorFlow
+
+##採用資料集
