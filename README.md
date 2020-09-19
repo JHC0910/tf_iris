@@ -6,4 +6,8 @@
 ## 使用模型
 Multilayer perceptron
 * Input layers with 4 input dimension
-* Hidden layers 
+* Hidden layers:
+  * 100 neurons
+  * 200 neurons
+  * 200 neurons
+ 
