@@ -29,5 +29,10 @@ model.add(tf.keras.layers.Dense(units = 3, activation=tf.nn.softmax))
 * Test accuracy 96.7%
 
 ## Result
+* 雖然模型本身很簡單，但是對於這類監督式學習的問題來說其參數空間已足夠涵蓋。
+我們可以看到不論是測試或是訓練均得到優秀的結果。
 
+* 對於訓練的結果，可做以下的調整:
+  * Overfitting: 當訓練結果很好但測試結果卻很差時，可嘗試Dropout或將模型的參數空間減少。
+  * Underfitting: 當訓練結果及測試結果都很差時，可先試著增加模型複雜度還有減少訓練的資料。
  
