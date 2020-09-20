@@ -5,7 +5,7 @@
 
 ## 使用模型
 Multilayer perceptron
-* Input layer with 4 input dimension
+* Input layer with 4 input dimension (4 features)
 * Hidden layers:
   * 100 neurons
   * 200 neurons
@@ -27,4 +27,7 @@ model.add(tf.keras.layers.Dense(units = 3, activation=tf.nn.softmax))
 ## 準確率
 * Train accuracy 97.5%
 * Test accuracy 96.7%
+
+## Result
+
  
